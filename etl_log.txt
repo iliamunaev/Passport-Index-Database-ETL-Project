@@ -1,0 +1,8 @@
+2023-Oct-28-18:07:59:ETL Job Started.
+2023-Oct-28-18:07:59:Extract phase Started.
+2023-Oct-28-18:08:00:Extract phase Ended.
+2023-Oct-28-18:08:00:Transform phase Started.
+2023-Oct-28-18:08:01:Transform phase Started.
+2023-Oct-28-18:08:01:Load phase Started.
+2023-Oct-28-18:08:01:Load phase Ended.
+2023-Oct-28-18:08:01:ETL process completed successfully.
