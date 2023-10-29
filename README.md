@@ -11,8 +11,8 @@ The database offers insights into the comparative strength of passports concerni
 - [Installation](#installation)
 - [Usage](#usage)
 - [Functions](#functions)
-- [ETL Functions Test Cases](##etl-functions-test-cases)
-- [Tools and Libraries](##tools-and-libraries)
+- [ETL Functions Test Cases](#etl-functions-test-cases)
+- [Tools and Libraries](#tools-and-libraries)
 - [License](#license)
 - [Contact](#contact)
 
@@ -37,7 +37,6 @@ The database offers insights into the comparative strength of passports concerni
 | DEU        | Germany             | 2          | 133       | 43              | 22            |
 | FIN        | Finland             | 2          | 133       | 43              | 22            |
 | ESP        | Spain               | 2          | 133       | 43              | 22            |
-
 
 ## Installation
 
@@ -77,7 +76,6 @@ The `load` function is responsible for persisting the transformed data into a SQ
 2. **Table Verification:** Verifies the existence of the table within the database.
 3. **Table Creation:** If the table does not exist, it creates a 'passport_data' table with columns for 'country_id', 'country_name', 'power_rank', 'visa_free', 'visa_on_arrival', and 'visa_required'.
 4. **Data Insertion:** Stores the transformed data, represented as a Pandas DataFrame, into the 'passport_data' table within the SQLite database.
-
 
 ## ETL Functions Test Cases
 The test suite below validates the functionality of the ETL (Extract, Transform, Load) processes for a passport index data processing system.
