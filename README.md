@@ -1,9 +1,11 @@
 
-# Passport Index Database
+# Passport Index Database: ETL, Python, SQLite3
 
-This project compiles and manages data showcasing the global travel access potential of different countries' passports. It scrapes the data from [passportindex.org](https://www.passportindex.org/byRank.php), adds an ID column, showcasing countries' names in unique ISO3 codes, and stores the data in a SQLite database "passport_index.db" with 'passport_data' table.
+This project compiles and manages data showcasing the global travel access potential of different countries' passports. It scrapes the actual data for 2023 from [passportindex.org](https://www.passportindex.org/byRank.php), adds an ID column, showcasing countries' names in unique ISO3 codes, and stores the data in a SQLite database 'passport_index.db' with 'passport_data' table.
 
-The database offers insights into the comparative strength of passports concerning visa-free or visa-on-arrival access to various countries worldwide.
+The database offers insights into the comparative strength of passports concerning visa-free or visa-on-arrival access to various countries worldwide. 
+
+Total number of countries - 199.
 
 ## Table of Contents
 - [Table Schema for `passport_data`](#table-schema-for-passport_data)
